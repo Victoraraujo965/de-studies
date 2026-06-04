@@ -87,13 +87,11 @@ Com a refatoração aplicada:
 
 ---
 
-## O que aprendi na prática
+## O que importa na prática
 
 - `.apply()` parece inocente mas é um loop Python — qualquer operação simples em coluna tem alternativa vetorizada mais rápida
 - `.map()` com dicionário é a forma correta de traduzir valores em escala
 - `iterrows()` nunca deve ser usado para comparações em larga escala — a diferença de 774x fala por si
-- Benchmark com dados simulados em volume equivalente ao real é suficiente para validar ganhos antes de ir para produção
-- Separar código em módulos (`loader`, `transformer`, `benchmark`) facilita testar cada parte isoladamente
 
 ---
 
